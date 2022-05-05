@@ -9,7 +9,7 @@ version: 2
 # Build documentation in the docs/ directory with Sphinx
 sphinx:
   # keep dirhtml for nice URLs without .html extension
-  builder: dirhtml
+  builder: html
   configuration: docs/conf.py
   fail_on_warning: true
 
