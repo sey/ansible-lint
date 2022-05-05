@@ -26,7 +26,7 @@ import pkg_resources
 # Refs:
 # https://github.com/readthedocs/readthedocs.org/issues/6311
 # https://github.com/readthedocs/readthedocs.org/issues/7182
-sys.path.insert(0, str(Path(__file__).parent.resolve()))
+# sys.path.insert(0, str(Path(__file__).parent.resolve()))
 
 # pip3 install sphinx_rtd_theme
 # import sphinx_rtd_theme
