@@ -26,7 +26,7 @@ import pkg_resources
 # Refs:
 # https://github.com/readthedocs/readthedocs.org/issues/6311
 # https://github.com/readthedocs/readthedocs.org/issues/7182
-sys.path.insert(0, str(Path(__file__).parent.resolve()))
+# sys.path.insert(0, str(Path(__file__).parent.resolve()))
 
 # pip3 install sphinx_rtd_theme
 # import sphinx_rtd_theme
@@ -214,7 +214,7 @@ html_title = "Ansible Lint Documentation"
 
 # The name of an image file (within the static path) to place at the top of
 # the sidebar.
-html_logo = "_static/ansible-lint.svg"
+html_logo = "/_static/ansible-lint.svg"
 
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
